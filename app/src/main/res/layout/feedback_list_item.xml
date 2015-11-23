@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="7dip">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User name"
+        android:textColor="@color/colorAccent"
+        android:padding="5dip"
+        android:textStyle="bold"
+        android:id="@+id/tv_feedback_user_name"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Its a nice programme to learn something."
+        android:padding="7dip"
+
+        android:textColor="@color/actionbar"
+        android:background="@drawable/back"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

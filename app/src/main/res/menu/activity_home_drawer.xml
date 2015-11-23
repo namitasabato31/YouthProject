@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_camara" android:icon="@drawable/create_forum"
+            android:title="Create Forum" />
+        <item android:id="@+id/nav_gallery" android:icon="@drawable/view_forum"
+            android:title="View Forums" />
+        <item android:id="@+id/nav_slideshow" android:icon="@drawable/feedback"
+            android:title="Feedbacks" />
+        <item android:id="@+id/nav_manage" android:icon="@drawable/create_user"
+            android:title="Create User" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@drawable/notifications"
+                android:title="Notifications" />
+            <item android:id="@+id/nav_send" android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

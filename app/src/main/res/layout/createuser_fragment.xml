@@ -1,0 +1,162 @@
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type of user:"
+        android:padding="5dip"
+        android:textColor="#0277BD"
+        android:id="@+id/tv_typeofuser"
+       android:layout_alignParentTop="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+android:background="@drawable/back"
+        android:padding="5dip"
+
+android:layout_below="@+id/tv_typeofuser"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/spinner_type_of_user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4.5"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+
+            android:spinnerMode="dropdown" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:id="@+id/spinner_type_of_user_helper"
+            android:src="@drawable/ic_action_down_grey" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:inputType="textPersonName"
+
+        android:padding="4dip"
+        android:hint="Enter first name"
+        android:layout_marginTop="7dip"
+        android:textColor="@color/grey"
+       android:background="@drawable/back"
+
+        android:id="@+id/edt_user_fname"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:inputType="textPersonName"
+
+        android:padding="4dip"
+        android:hint="Enter last name"
+        android:layout_marginTop="7dip"
+        android:textColor="@color/grey"
+        android:background="@drawable/back"
+
+        android:id="@+id/edt_last_name"
+        android:layout_below="@+id/edt_user_fname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:inputType="textPersonName"
+
+        android:padding="4dip"
+        android:hint="Enter college name"
+        android:layout_marginTop="7dip"
+        android:textColor="@color/grey"
+        android:background="@drawable/back"
+
+        android:id="@+id/edt_college_name"
+        android:layout_below="@+id/edt_last_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:inputType="number"
+
+        android:padding="4dip"
+        android:hint="Enter phone number"
+        android:layout_marginTop="7dip"
+        android:textColor="@color/grey"
+        android:background="@drawable/back"
+
+        android:id="@+id/edt_phone_no"
+        android:layout_below="@+id/edt_college_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:inputType="number"
+
+        android:padding="4dip"
+        android:hint="Enter new userid"
+        android:layout_marginTop="7dip"
+        android:textColor="@color/grey"
+        android:background="@drawable/back"
+
+        android:id="@+id/edt_userid"
+        android:layout_below="@+id/edt_phone_no"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:inputType="number"
+
+        android:padding="4dip"
+        android:hint="Enter new password"
+        android:layout_marginTop="7dip"
+        android:textColor="@color/grey"
+        android:background="@drawable/back"
+
+        android:id="@+id/edt_user_password"
+        android:layout_below="@+id/edt_userid"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:text="Create User"
+        android:background="#0277BD"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:layout_marginTop="12dip"
+        android:id="@+id/btn_create_user"
+       android:layout_below="@+id/edt_user_password"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+</ScrollView>

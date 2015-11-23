@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="5dip">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:textColor="@color/colorAccent"
+        android:text="Who will going to win today&apos;s match?"
+        android:id="@+id/tv_query"
+        android:padding="6dip"
+        android:paddingBottom="7dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Created On:"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="4dip"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/tv_query"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="17 November 2015"
+        android:id="@+id/tv_time"
+        android:padding="4dip"
+        android:textColor="@color/grey"
+        android:layout_below="@+id/tv_query"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:padding="4dip"
+
+        android:src="@drawable/ic_no_of_users"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:padding="4dip"
+        android:textColor="@color/actionbar"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="4"
+        android:gravity="center_vertical"
+        android:layout_alignBottom="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:id="@+id/tv_line"
+        android:background="#d3d3d3"
+        android:layout_below="@+id/editText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Show more"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/tv_showmore"
+        android:padding="6dip"
+        android:gravity="center"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+</RelativeLayout>

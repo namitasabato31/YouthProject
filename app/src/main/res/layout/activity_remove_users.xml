@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#d3d3d3"
+    android:padding="10dip">
+
+
+    <ListView android:id="@+id/list_removeusers"
+        android:layout_width="match_parent"
+        android:dividerHeight="2dip"
+        android:layout_below="@+id/editText5"
+        android:divider="@android:color/transparent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/remove_btn" />
+
+
+
+    <Button
+        android:id="@+id/remove_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_marginTop="7dip"
+        android:background="#0277BD"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:text="Remove" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:id="@+id/editText5"
+        android:textColor="#0277BD"
+        android:hint="search users"
+        android:drawableLeft="@drawable/ic_search"
+        android:background="@drawable/back"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dip"
+
+        />
+
+
+</RelativeLayout>
