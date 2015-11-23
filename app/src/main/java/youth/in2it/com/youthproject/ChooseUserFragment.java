@@ -24,6 +24,7 @@ public class ChooseUserFragment extends Fragment {
     ListView listView;
     Button myButton;
     MyCustomAdapter dataAdapter;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
